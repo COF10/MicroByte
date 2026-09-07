@@ -54,8 +54,8 @@ MicroByte includes both an **IR receiver** and **IR transmitter**.
 - Send captured IR codes
 - Built-in NEC transmission test
 - TV remote database / TV remote commands
-- TV power-code sweep
-- IR burst / test feature
+- TV-B-GONE
+- IR spam / test feature
 
 ### IR transmitter resistor
 
@@ -68,16 +68,6 @@ The firmware uses `INPUT_PULLUP`, so the button is active when the GPIO is pulle
 ---
 
 # Wi-Fi
-
-MicroByte can run its own Wi-Fi access point for the web controller.
-
-The web interface provides:
-
-- Left / previous control
-- Select
-- Right / next control
-- Hold-to-move controls
-- Current screen status
 
 MicroByte can also scan for nearby Wi-Fi networks.
 
@@ -141,7 +131,7 @@ Settings such as the UI theme, boot animation, and display brightness are saved 
 - **TP4056 charging/protection module**
 - **2 × 100kΩ resistors** for the battery voltage divider
 - Push buttons for UP, SELECT, and DOWN
-- Jumper wires
+- wires
 - Breadboard or your own PCB/wiring
 
 ## Optional
@@ -205,13 +195,6 @@ The project uses Arduino/ESP32 libraries and project files including:
 - `WebServer.h`
 - `Preferences.h`
 - `Arduino_GFX_Library`
-- ESP32 BLE libraries
-- `IRremote`
-- `games.hpp`
-- `ir_universal_send.hpp`
-
-Keep the required local header files in the same Arduino sketch/project where needed.
-
 ---
 
 # Firmware Development
@@ -267,5 +250,3 @@ MicroByte is intended for learning, electronics experimentation, wireless resear
 Use the hardware responsibly and follow applicable laws and regulations.
 
 ---
-
-**MicroByte — Small device. Big possibilities.**
