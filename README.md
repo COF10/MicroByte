@@ -245,8 +245,11 @@ Their help has been a major part of getting MicroByte to where it is today.
 
 # Disclaimer
 
-MicroByte is intended for learning, electronics experimentation, wireless research, and use with equipment and systems you are authorized to test.
+MicroByte is for **personal, educational, and experimental use only**. You may not sell, commercially distribute, or claim this project or modified versions as your own without permission.
 
-Use the hardware responsibly and follow applicable laws and regulations.
+The author is not responsible for any damage, injury, loss, misuse, or other consequences caused by the device. You are responsible for using it legally and only with systems you are authorized to test.
+
+By using MicroByte, you agree to these terms.
+
 
 ---
